@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %}
+<h1>User Index</h1>
+{% if name %}
+<h2>Seu nome é {{ name }}</h2>
+{% endif %} {% if phone %}
+<h2>Seu telefone é {{ phone }}</h2>
+{% endif %} {% if email %}
+<h2>Seu email é {{ email }}</h2>
+
+{% endif %} {% endblock content %}
