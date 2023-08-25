@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/brito/Cursos/XPE/Python/Módulo-03/aulas/env"
+VIRTUAL_ENV="/home/brito/Cursos/XPE/Python/Módulo-03/aulas/Django-CRUD/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

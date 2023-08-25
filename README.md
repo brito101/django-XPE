@@ -39,7 +39,7 @@
 17. Enter shell: `python3 manage.py shell`
     1. `from app1.models import User`
     2. `User.objects.all()`
-    3 . `user = User(name= 'Rodrigo', phone=111111, email='brit101o@gmail.com')`
+    3 . `user = User(name= 'Rodrigo', phone=111111, email='brit101@gmail.com')`
     3 . `user.save()`
 
 18. Create superuser: `python3 manage.py createsuperuser`
